@@ -1,10 +1,12 @@
 {
   "title": "MR Hyper Apps",
+  "author": "Marcin Retecki",
   "rules": [
     {
-      "description": "Change caps_lock to command+control+option+shift.",
+      "description": "MR Change caps_lock to command+control+option+shift.",
       "manipulators": [
         {
+          "type": "basic",
           "from": {
             "key_code": "caps_lock",
             "modifiers": {
@@ -22,18 +24,17 @@
                 "left_option"
               ]
             }
-          ],
-          "type": "basic"
+          ]
         }
       ]
     },
     {
-      "description": "Open Firefox",
+      "description": "MR Open Apps with Hyper",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "f",
+            "key_code": "b",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -49,11 +50,6 @@
             }
           ]
         },
-      ]
-    },
-    {
-      "description": "Open Sublime Text",
-      "manipulators": [
         {
           "type": "basic",
           "from": {
@@ -70,6 +66,44 @@
           "to": [
             {
               "shell_command": "open '/Applications/Web/Sublime Text.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_control",
+                "left_shift",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Web/Sourcetree.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_control",
+                "left_shift",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              //"shell_command": "open '/Applications/Finder.app'"
             }
           ]
         }

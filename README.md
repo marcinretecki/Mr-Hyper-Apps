@@ -1,7 +1,25 @@
 # Mr-Hyper-Apps
 Custom Karabiner setup
 
-- Create Hyper mod key (Command + Alt + Control + Shift)
-- Open Apps with Hyper + letter
--- Open Firefox (Hyper + F)
--- Open Sublime (Hyper + S)
+####  Create Hyper `✱` mod key (`⌘` + `⌥` + `⌃` + `⇧`)
+
+## Apps
+
+| `✱ +`| Open  | Comment  |
+| ------ | ---------- | ------------ |
+|`✱B`  | Firefox  | `B` is for browser   |
+| `✱S`  | Sublime Text |  |
+| `✱G`   | Sourcetree | `G` is for git  |
+
+
+
+## Together with Spectacle
+
+| `✱ +`| Window Management  | Comment  |
+| ------ | ---------- | ------------ |
+| `✱F`   | Full screen |   |
+|`✱←`  | Left half  |  |
+| `✱→`   | Right half |  |
+| `✱↓`  | Lower half |  |
+| `✱↑`   | Upper half |   |
+| `✱3`   | Next third |   |
