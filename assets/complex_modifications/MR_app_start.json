@@ -1,0 +1,79 @@
+{
+  "title": "MR Hyper Apps",
+  "rules": [
+    {
+      "description": "Change caps_lock to command+control+option+shift.",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": [
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Open Firefox",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_control",
+                "left_shift",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Firefox.app'"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "description": "Open Sublime Text",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "s",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_control",
+                "left_shift",
+                "left_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Web/Sublime Text.app'"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
