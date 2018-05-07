@@ -1,7 +1,7 @@
 # Mr-Hyper-Apps
 Custom Karabiner setup
 
-####  Create Hyper `✱` mod key (`⌘` + `⌥` + `⌃` + `⇧`)
+####  Create Hyper `⚡︎` mod key (`⌘` + `⌥` + `⌃` + `⇧`)
 
 ## Apps
 
