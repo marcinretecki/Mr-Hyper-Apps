@@ -5,21 +5,21 @@ Custom Karabiner setup
 
 ## Apps
 
-| `✱ +`| Open  | Comment  |
+| `⚡︎ +`| Open  | Comment  |
 | ------ | ---------- | ------------ |
-|`✱B`  | Firefox  | `B` is for browser   |
-| `✱S`  | Sublime Text |  |
-| `✱G`   | Sourcetree | `G` is for git  |
+|`⚡︎ B`  | Firefox  | `B` is for browser   |
+| `⚡︎ S`  | Sublime Text |  |
+| `⚡︎ G`   | Sourcetree | `G` is for git  |
 
 
 
 ## Together with Spectacle
 
-| `✱ +`| Window Management  | Comment  |
+| `⚡︎ +`| Window Management  | Comment  |
 | ------ | ---------- | ------------ |
-| `✱F`   | Full screen |   |
-|`✱←`  | Left half  |  |
-| `✱→`   | Right half |  |
-| `✱↓`  | Lower half |  |
-| `✱↑`   | Upper half |   |
-| `✱3`   | Next third |   |
+| `⚡︎ F`   | Full screen |   |
+|`⚡︎ ←`  | Left half  |  |
+| `⚡︎ →`   | Right half |  |
+| `⚡︎ ↓`  | Lower half |  |
+| `⚡︎ ↑`   | Upper half |   |
+| `⚡︎ 3`   | Next third |   |
