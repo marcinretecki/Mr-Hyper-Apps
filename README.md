@@ -1,4 +1,4 @@
-# Mr-Hyper-Apps
+# MR Hyper Apps
 Custom Karabiner setup
 
 ####  Create Hyper `⚡︎` mod key (`⌘` + `⌥` + `⌃` + `⇧`)
@@ -10,6 +10,8 @@ Custom Karabiner setup
 |`⚡︎ B`  | Firefox  | `B` is for browser   |
 | `⚡︎ S`  | Sublime Text |  |
 | `⚡︎ G`   | Sourcetree | `G` is for git  |
+| `⚡︎ T`   | Transmit |  |
+| `⚡︎ E`   | Finder |  |
 
 
 
@@ -27,7 +29,4 @@ Custom Karabiner setup
 
 ## Polish and Norwegian
 
-| `⌥`| Letter  | 
-| ------ | ---------- | 
-| `⌥ a`   | ą |  
-| `⌥ ⇧ a`   | Ą | 
+Use Ukulele to create custom Colemak keyboard layout. This layout blends polish and norwegian layouts.
