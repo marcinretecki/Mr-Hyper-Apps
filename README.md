@@ -5,7 +5,7 @@ Custom Karabiner setup
 
 ## Apps
 
-| `⚡︎ +`| Open  | Comment  |
+| `⚡︎`| Open  | Comment  |
 | ------ | ---------- | ------------ |
 |`⚡︎ B`  | Firefox  | `B` is for browser   |
 | `⚡︎ S`  | Sublime Text |  |
@@ -15,7 +15,7 @@ Custom Karabiner setup
 
 ## Together with Spectacle
 
-| `⚡︎ +`| Window Management  | Comment  |
+| `⚡︎`| Window Management  | Comment  |
 | ------ | ---------- | ------------ |
 | `⚡︎ F`   | Full screen |   |
 |`⚡︎ ←`  | Left half  |  |
@@ -23,3 +23,11 @@ Custom Karabiner setup
 | `⚡︎ ↓`  | Lower half |  |
 | `⚡︎ ↑`   | Upper half |   |
 | `⚡︎ 3`   | Next third |   |
+
+
+## Polish and Norwegian
+
+| `⌥`| Letter  | 
+| ------ | ---------- | 
+| `⌥ a`   | ą |  
+| `⌥ ⇧ a`   | Ą | 
