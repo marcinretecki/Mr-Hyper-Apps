@@ -31,4 +31,19 @@ Custom Karabiner setup
 
 ## Polish and Norwegian
 
-Use Ukulele to create custom Colemak keyboard layout. This layout blends polish and norwegian layouts.
+Custom PolnormarkWide layout.
+
+
+## Pok3r proggraming
+
+Move arrows keys so I can use them with thumb on `FN`.
+
+|Normal keys|Arrows |
+|`L`|`←`|
+|`P`|`↑`|
+|`; :`|`↓`|
+|`' "`|`→`|
+
+Move `⌘` to it's mac's place. Remember to move `FN + ⌘` as well and both sides of the keyboard.
+
+Move `⌥` to it's place.
