@@ -39,6 +39,7 @@ Custom PolnormarkWide layout.
 Move arrows keys so I can use them with thumb on `FN`.
 
 |Normal keys|Arrows |
+| ------ | ---------- | 
 |`L`|`←`|
 |`P`|`↑`|
 |`; :`|`↓`|
