@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!-- Colemak layout for Mac OS X. -->
+<!--Wide  Colemak layout for Mac OS X with Polish and Norwegian letters.-->
 <!-- 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain. -->
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-07-01 at 08:42 (CEST)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-07-01 at 08:52 (CEST)-->
 <keyboard group="126" id="-1485" name="PolnormakWide" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="312" modifiers="48"/>
@@ -37,7 +37,7 @@
 		<keyMap index="0">
 			<key code="0" action="a52"/>
 			<key code="1" action="a17"/>
-			<key code="2" action="a30"/>
+			<key code="2" action="a205"/>
 			<key code="3" action="a20"/>
 			<key code="4" output="]"/>
 			<key code="5" action="a19"/>
@@ -442,7 +442,7 @@
 			<key code="39" output="ó"/>
 			<key code="40" action="a141"/>
 			<key code="41" action="a181"/>
-			<key code="42" action="a15"/>
+			<key code="42" action="a206"/>
 			<key code="43" output=""/>
 			<key code="44" output=""/>
 			<key code="45" output=""/>
@@ -847,25 +847,25 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="7">
-			<key code="0" output="&#x0001;"/>
-			<key code="1" output="&#x0012;"/>
-			<key code="2" output="&#x0013;"/>
-			<key code="3" output="&#x0014;"/>
-			<key code="4" output="&#x001D;"/>
-			<key code="5" output="&#x0004;"/>
-			<key code="6" output="&#x001A;"/>
-			<key code="7" output="&#x0018;"/>
-			<key code="8" output="&#x0003;"/>
-			<key code="9" output="&#x0016;"/>
+			<key code="0" output=""/>
+			<key code="1" output=""/>
+			<key code="2" output=""/>
+			<key code="3" output=""/>
+			<key code="4" output=""/>
+			<key code="5" output=""/>
+			<key code="6" output=""/>
+			<key code="7" output=""/>
+			<key code="8" output=""/>
+			<key code="9" output=""/>
 			<!-- gap, 10 -->
 			<key code="10" output=""/>
 			<key code="11" output=""/>
-			<key code="12" output="&#x0011;"/>
-			<key code="13" output="&#x0017;"/>
-			<key code="14" output="&#x0006;"/>
-			<key code="15" output="&#x0010;"/>
-			<key code="16" output="&#x001B;"/>
-			<key code="17" output="&#x0007;"/>
+			<key code="12" output=""/>
+			<key code="13" output=""/>
+			<key code="14" output=""/>
+			<key code="15" output=""/>
+			<key code="16" output=""/>
+			<key code="17" output=""/>
 			<!-- gap, 18 -->
 			<key code="18" output=""/>
 			<key code="19" output=""/>
@@ -874,34 +874,34 @@
 			<key code="21" output=""/>
 			<key code="22" output=""/>
 			<key code="23" output=""/>
-			<key code="24" output="&#x001F;"/>
+			<key code="24" output=""/>
 			<!-- gap, 28-29 -->
 			<key code="25" output=""/>
-			<key code="26" output="&#x001E;"/>
+			<key code="26" output=""/>
 			<!-- gap, 23-26 -->
 			<key code="27" output=""/>
 			<key code="28" output=""/>
 			<key code="29" output=""/>
 			<key code="30" output=""/>
-			<key code="31" output="&#x0015;"/>
-			<key code="32" output="&#x000A;"/>
-			<key code="33" output="&#x0010;"/>
-			<key code="34" output="&#x000C;"/>
-			<key code="35" output="&#x0019;"/>
+			<key code="31" output=""/>
+			<key code="32" output=""/>
+			<key code="33" output=""/>
+			<key code="34" output=""/>
+			<key code="35" output=""/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="&#x0009;"/>
-			<key code="38" output="&#x000E;"/>
+			<key code="37" output=""/>
+			<key code="38" output=""/>
 			<!-- gap, 39 -->
 			<key code="39" output=""/>
-			<key code="40" output="&#x0005;"/>
-			<key code="41" output="&#x000F;"/>
-			<key code="42" output="&#x001C;"/>
+			<key code="40" output=""/>
+			<key code="41" output=""/>
+			<key code="42" output=""/>
 			<!-- gap, 43-44 -->
-			<key code="43" output="&#x000D;"/>
+			<key code="43" output=""/>
 			<!-- gap, 47 -->
 			<key code="44" output=""/>
 			<key code="45" output=""/>
-			<key code="46" output="&#x000B;"/>
+			<key code="46" output=""/>
 			<key code="47" output=""/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=""/>
@@ -1537,6 +1537,19 @@
 		<action id="a204">
 			<when state="none" output="Å"/>
 			<when state="s6" output="Ǿ"/>
+		</action>
+		<action id="a205">
+			<when state="none" output="s"/>
+			<when state="s1" output="§"/>
+			<when state="s13" output="ŝ"/>
+			<when state="s2" output="ş"/>
+			<when state="s3" output="ṡ"/>
+			<when state="s6" output="ś"/>
+			<when state="s8" output="š"/>
+		</action>
+		<action id="a206">
+			<when state="none" output=""/>
+			<when state="s1" output="≈"/>
 		</action>
 		<action id="a21">
 			<when state="none" output="m"/>
