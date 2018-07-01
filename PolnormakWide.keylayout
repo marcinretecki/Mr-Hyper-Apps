@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- Colemak layout for Mac OS X. -->
 <!-- 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain. -->
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-06-20 at 09:26 (CEST)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-07-01 at 08:42 (CEST)-->
 <keyboard group="126" id="-1485" name="PolnormakWide" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="312" modifiers="48"/>
@@ -412,10 +412,10 @@
 			<!-- gap, 10 -->
 			<key code="10" output="ż"/>
 			<key code="11" output=""/>
-			<key code="12" action="a144"/>
-			<key code="13" action="a108"/>
-			<key code="14" action="a102"/>
-			<key code="15" action="a158"/>
+			<key code="12" action="a200"/>
+			<key code="13" action="a199"/>
+			<key code="14" action="a198"/>
+			<key code="15" action="a197"/>
 			<key code="16" output="«"/>
 			<key code="17" output=""/>
 			<key code="18" output=""/>
@@ -529,10 +529,10 @@
 			<!-- gap, 10 -->
 			<key code="10" action="a184"/>
 			<key code="11" output=""/>
-			<key code="12" action="a151"/>
-			<key code="13" action="a118"/>
-			<key code="14" action="a106"/>
-			<key code="15" action="a122"/>
+			<key code="12" action="a201"/>
+			<key code="13" action="a202"/>
+			<key code="14" action="a203"/>
+			<key code="15" action="a204"/>
 			<key code="16" output="‹"/>
 			<key code="17" action="a194"/>
 			<key code="18" output=""/>
@@ -567,7 +567,7 @@
 			<key code="47" action="a188"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" action="a184"/>
+			<key code="50" action="a196"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -759,7 +759,7 @@
 			<key code="27" output="0"/>
 			<key code="28" output="7"/>
 			<key code="29" output="9"/>
-			<key code="30" output="#"/>
+			<key code="30" output="`"/>
 			<key code="31" action="a81"/>
 			<key code="32" action="a137"/>
 			<key code="33" output=";"/>
@@ -1489,6 +1489,23 @@
 			<when state="s13" output="Ế"/>
 			<when state="s9" output="Ḗ"/>
 		</action>
+		<action id="a196">
+			<when state="none" output="Ż"/>
+			<when state="s1" output="≈"/>
+		</action>
+		<action id="a197">
+			<when state="none" output="å"/>
+			<when state="s6" output="ǿ"/>
+		</action>
+		<action id="a198">
+			<when state="none" output="ø"/>
+			<when state="s13" output="ẫ"/>
+			<when state="s5" output="ẵ"/>
+		</action>
+		<action id="a199">
+			<when state="none" output="æ"/>
+			<when state="s6" output="ǻ"/>
+		</action>
 		<action id="a2">
 			<when state="none" next="s2"/>
 		</action>
@@ -1499,6 +1516,27 @@
 			<when state="s3" output="ṫ"/>
 			<when state="s7" output="ẗ"/>
 			<when state="s8" output="ť"/>
+		</action>
+		<action id="a200">
+			<when state="none" output="é"/>
+			<when state="s9" output="ǟ"/>
+		</action>
+		<action id="a201">
+			<when state="none" output="É"/>
+			<when state="s9" output="Ǟ"/>
+		</action>
+		<action id="a202">
+			<when state="none" output="Æ"/>
+			<when state="s6" output="Ǻ"/>
+		</action>
+		<action id="a203">
+			<when state="none" output="Ø"/>
+			<when state="s13" output="Ẫ"/>
+			<when state="s5" output="Ẵ"/>
+		</action>
+		<action id="a204">
+			<when state="none" output="Å"/>
+			<when state="s6" output="Ǿ"/>
 		</action>
 		<action id="a21">
 			<when state="none" output="m"/>
