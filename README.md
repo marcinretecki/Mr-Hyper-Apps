@@ -45,6 +45,6 @@ Move arrows keys so I can use them with thumb on `FN`.
 |`; :`|`↓`|
 |`' "`|`→`|
 
-Move `⌘` to it's mac's place (on left). Remember to move `FN + ⌘` as well and both sides of the keyboard.
+Move `⌘` to it's mac's place (on left). Remember to move `FN + ⌘`.
 
 Move `⌥` to it's place. Add second `⌥` on the right instead of  `⌘`. It makes writing in other languages much easier.
