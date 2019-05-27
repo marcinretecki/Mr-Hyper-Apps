@@ -2,8 +2,8 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Wide  Colemak layout for Mac OS X with Polish and Norwegian letters.-->
 <!-- 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain. -->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-05-18 at 18:45 (CEST)-->
-<keyboard group="126" id="-1485" name="PolnormakWide" maxout="1">
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-05-27 at 10:59 (CEST)-->
+<keyboard group="126" id="-9667" name="PolnormakWide" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
     </layouts>
@@ -46,7 +46,7 @@
             <key code="8" action="a169"/>
             <key code="9" action="a173"/>
             <key code="10" output="z"/>
-            <key code="11" action="a178"/>
+            <key code="11" action="a207"/>
             <key code="12" output="q"/>
             <key code="13" action="a57"/>
             <key code="14" action="a54"/>
@@ -444,7 +444,7 @@
             <key code="42" action="a206"/>
             <key code="43" output=""/>
             <key code="44" output=""/>
-            <key code="45" output=""/>
+            <key code="45" output="\"/>
             <key code="46" output=""/>
             <key code="47" output=""/>
             <key code="48" output="&#x0009;"/>
@@ -755,6 +755,7 @@
             <key code="25" output="7"/>
             <key code="26" output="-"/>
             <key code="27" output="9"/>
+            <key code="28" output="6"/>
             <key code="29" output="8"/>
             <key code="30" output="`"/>
             <key code="31" action="a81"/>
@@ -876,6 +877,7 @@
             <key code="26" output=""/>
             <!-- gap, 28-29 -->
             <key code="27" output=""/>
+            <key code="28" output=""/>
             <key code="29" output=""/>
             <key code="30" output=""/>
             <key code="31" output=""/>
@@ -1433,7 +1435,7 @@
             <when state="s1" output="≈"/>
         </action>
         <action id="a185">
-            <when state="none" output=""/>
+            <when state="none" output="|"/>
             <when state="s1" output="≈"/>
         </action>
         <action id="a186">
@@ -1546,6 +1548,10 @@
             <when state="none" output=""/>
             <when state="s1" output="≈"/>
         </action>
+        <action id="a207">
+            <when state="none" output="("/>
+            <when state="s1" output="≠"/>
+        </action>
         <action id="a21">
             <when state="none" output="m"/>
             <when state="s1" output="µ"/>
@@ -1567,7 +1573,7 @@
             <when state="s1" output="‰"/>
         </action>
         <action id="a25">
-            <when state="none" output="|"/>
+            <when state="none" output=")"/>
             <when state="s1" output="±"/>
         </action>
         <action id="a26">
@@ -1579,7 +1585,7 @@
             <when state="s1" output="≥"/>
         </action>
         <action id="a28">
-            <when state="none" output="\"/>
+            <when state="none" output="("/>
             <when state="s1" output="≠"/>
         </action>
         <action id="a29">
