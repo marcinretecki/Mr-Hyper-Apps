@@ -2,8 +2,8 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Wide  Colemak layout for Mac OS X with Polish and Norwegian letters.-->
 <!-- 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain. -->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-09 at 14:22 (CEST)-->
-<keyboard group="126" id="-9667" name="PolnormakWide" maxout="1">
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-09 at 16:48 (CEST)-->
+<keyboard group="126" id="-9667" name="PolnormakWide v2.0" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
     </layouts>
