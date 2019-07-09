@@ -1,44 +1,59 @@
 # MR Hyper Apps
 Custom Karabiner setup
 
-![Keyboard](PolnormakWide.png)
+![Keyboard](polnormakwide-v2-0.png.png)
 
 ####  Create Hyper `⚡︎` mod key (`⌘` + `⌥` + `⌃` + `⇧`)
 
 ## Apps
 
-| `⚡︎`| Open  | Comment  |
-| ------ | ---------- | ------------ |
-|`⚡︎ B`  | Firefox  | `B` is for browser   |
-| `⚡︎ S`  | Sublime Text |  |
-| `⚡︎ G`   | Sourcetree | `G` is for git  |
-| `⚡︎ T`   | Transmit |  |
-| `⚡︎ E`   | Finder |  |
+| `⚡︎`| Open  | 
+| ------ | ---------- |
+| `⚡︎ 1`   | Finder |
+|`⚡︎ 2`  | Firefox  |
+| `⚡︎ 3`   | Sourcetree | 
+| `⚡︎ 4`  | Sublime Text |
+| `⚡︎ 5`   | Transmit | 
 
+## Arrows
+
+| `⚡︎`|   | 
+| ------ | ---------- |
+| `⚡︎ w`   | Up arrow |
+|`⚡︎ s`  | Down arrow  |
+| `⚡︎ a`   | Left arrow | 
+| `⚡︎ d`  | Right arrow |
 
 
 ## Together with Spectacle
 
 | `⚡︎`| Window Management  | Comment  |
 | ------ | ---------- | ------------ |
-| `⚡︎ F`   | Full screen |   |
+| `⚡︎ T`   | Full screen |  `⚡︎ F` on QWERTY|
 |`⚡︎ ←`  | Left half  |  |
 | `⚡︎ →`   | Right half |  |
 | `⚡︎ ↓`  | Lower half |  |
 | `⚡︎ ↑`   | Upper half |   |
-| `⚡︎ 3`   | Next third |   |
 
 
 ## Polish and Norwegian
 
-Custom PolnormarkWide layout.
+Polish layout as expected (`⌥` + letters).
+Norwegian a bit different:
+
+| `⚡︎`| Letter  | 
+| ------ | ---------- |
+| `⚡︎ u`   | æ |
+|`⚡︎ y`  | ø |
+| `⚡︎ ;`   | å | 
+| `⚡︎ i`  | é |
 
 
 ## Pok3r proggraming
 
 Move arrows keys so I can use them with thumb on `FN`.
 
-|Normal keys|Arrows |
+|QWERTY|Arrows |
 | ------ | ---------- | 
 |`L`|`←`|
 |`P`|`↑`|
@@ -47,4 +62,6 @@ Move arrows keys so I can use them with thumb on `FN`.
 
 Move `⌘` to it's mac's place (on left). Remember to move `FN + ⌘`.
 
-Move `⌥` to it's place. Add second `⌥` on the right instead of  `⌘`. It makes writing in other languages much easier.
+Move `⌥` to it's mac's place. Add second `⌥` on the right instead of  `⌘`. It makes writing in other languages much easier.
+
+`Left ⌥` + `Right ⌥` + `Spacebar`: The bottom right corner as arrow keys. (It is built in Pok3r.)

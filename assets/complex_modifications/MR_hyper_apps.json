@@ -3,7 +3,7 @@
   "author": "Marcin Retecki",
   "rules": [
     {
-      "description": "MR Change caps_lock to command+control+option+shift.",
+      "description": "MR Change caps_lock to Hyper (right command+control+option+shift)",
       "manipulators": [
         {
           "type": "basic",
@@ -34,7 +34,26 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "b",
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'finder'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "2",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -53,6 +72,282 @@
         {
           "type": "basic",
           "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Sourcetree.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "4",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Sublime Text.app'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "MR Hyper Numbers",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "-",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "5"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "[",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "6"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "1"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": ";",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "2"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": ".",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "/",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "MR Hyper WSAD",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
             "key_code": "s",
             "modifiers": {
               "mandatory": [
@@ -65,14 +360,14 @@
           },
           "to": [
             {
-              "shell_command": "open '/Applications/Web/Sublime Text.app'"
+              "key_code": "down_arrow"
             }
           ]
         },
         {
           "type": "basic",
           "from": {
-            "key_code": "g",
+            "key_code": "d",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -84,45 +379,7 @@
           },
           "to": [
             {
-              "shell_command": "open '/Applications/Web/Sourcetree.app'"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "t",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open '/Applications/Web/Transmit.app'"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "e",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'finder'"
+              "key_code": "right_arrow"
             }
           ]
         }
@@ -130,3 +387,4 @@
     }
   ]
 }
+
