@@ -1,7 +1,7 @@
 # MR Hyper Apps
 Custom Karabiner setup
 
-![Keyboard](polnormakwide-v2-0.png.png)
+![Keyboard](polnormakwide-v2-0.png)
 
 ####  Create Hyper `⚡︎` mod key (`⌘` + `⌥` + `⌃` + `⇧`)
 
