@@ -65,3 +65,4 @@ Move `⌘` to it's mac's place (on left). Remember to move `FN + ⌘`.
 Move `⌥` to it's mac's place. Add second `⌥` on the right instead of  `⌘`. It makes writing in other languages much easier.
 
 `Left ⌥` + `Right ⌥` + `Spacebar`: The bottom right corner as arrow keys. (It is built in Pok3r.)
+

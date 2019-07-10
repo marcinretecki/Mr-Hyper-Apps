@@ -207,6 +207,7 @@
                         "description": "MR Hyper Numbers",
                         "manipulators": [
                             {
+                                "description": "Polnormak 1 = ISO 1",
                                 "from": {
                                     "key_code": "l",
                                     "modifiers": {
@@ -220,12 +221,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1"
+                                        "key_code": "1",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 2 = ISO 2",
                                 "from": {
                                     "key_code": "semicolon",
                                     "modifiers": {
@@ -239,12 +244,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "2"
+                                        "key_code": "2",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 3 = ISO 3",
                                 "from": {
                                     "key_code": "quote",
                                     "modifiers": {
@@ -258,12 +267,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3"
+                                        "key_code": "3",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 4 = ISO 4",
                                 "from": {
                                     "key_code": "o",
                                     "modifiers": {
@@ -277,12 +290,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4"
+                                        "key_code": "4",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 5 = ISO 5",
                                 "from": {
                                     "key_code": "p",
                                     "modifiers": {
@@ -296,12 +313,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "5"
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 6 = ISO 8",
                                 "from": {
                                     "key_code": "open_bracket",
                                     "modifiers": {
@@ -315,12 +336,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "6"
+                                        "key_code": "8",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 7 = ISO 9",
                                 "from": {
                                     "key_code": "9",
                                     "modifiers": {
@@ -334,12 +359,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "7"
+                                        "key_code": "9",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 8 = ISO 0",
                                 "from": {
                                     "key_code": "0",
                                     "modifiers": {
@@ -353,12 +382,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "8"
+                                        "key_code": "0",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 9 = ISO hyphen",
                                 "from": {
                                     "key_code": "hyphen",
                                     "modifiers": {
@@ -372,12 +405,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "9"
+                                        "key_code": "hyphen",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak 0 = ISO equal_sign",
                                 "from": {
                                     "key_code": "period",
                                     "modifiers": {
@@ -391,12 +428,16 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0"
+                                        "key_code": "equal_sign",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
+                                "description": "Polnormak period = ISO slash",
                                 "from": {
                                     "key_code": "slash",
                                     "modifiers": {
@@ -410,7 +451,50 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0"
+                                        "key_code": "slash"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "Polnormak + = ISO shift 6",
+                                "from": {
+                                    "key_code": "backslash",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_command",
+                                            "right_control",
+                                            "right_shift",
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "6",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "description": "Polnormak - = ISO 7",
+                                "from": {
+                                    "key_code": "close_bracket",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_command",
+                                            "right_control",
+                                            "right_shift",
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7"
                                     }
                                 ],
                                 "type": "basic"
