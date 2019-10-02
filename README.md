@@ -25,7 +25,7 @@ Custom Karabiner setup
 | `⚡︎ d`  | Right arrow |
 
 
-## Together with Spectacle
+## Together with Rectangle
 
 | `⚡︎`| Window Management  | Comment  |
 | ------ | ---------- | ------------ |
@@ -66,3 +66,4 @@ Move `⌥` to it's mac's place. Add second `⌥` on the right instead of  `⌘`.
 
 `Left ⌥` + `Right ⌥` + `Spacebar`: The bottom right corner as arrow keys. (It is built in Pok3r.)
 
+7894561230.+-)
