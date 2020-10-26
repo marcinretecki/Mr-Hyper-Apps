@@ -25,8 +25,53 @@
               ]
             }
           ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {
+              "optional": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ]
         }
       ]
+    },
+    {
+        "description": "Change spacebar to left_shift. (Post spacebar if pressed alone)",
+        "manipulators": [
+            {
+                "from": {
+                    "key_code": "spacebar",
+                    "modifiers": {
+                        "optional": [
+                            "any"
+                        ]
+                    }
+                },
+                "to": [
+                    {
+                        "key_code": "left_shift"
+                    }
+                ],
+                "to_if_alone": [
+                    {
+                        "key_code": "spacebar"
+                    }
+                ],
+                "type": "basic"
+            }
+        ]
     },
     {
       "description": "MR Open Apps with Hyper",
@@ -346,6 +391,30 @@
           ],
           "description": "Polnormak 0 = ISO equal_sign"
         },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "description": "Polnormak 0 = ISO equal_sign"
+        },
+
         {
           "type": "basic",
           "from": {
